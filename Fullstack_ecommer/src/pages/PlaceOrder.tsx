@@ -331,7 +331,7 @@ const PlaceOrder = () => {
               className="flex items-center gap-3 border p-2 px-3 cursor-pointer"
             >
               <p className={`min-w-3.5 h-3.5 border rounded-full ${method === 'paystack' ? 'bg-green-400' : ''}`}></p>
-              <img src={assets.razorpay_logo} className="h-5 mx-4" alt="Paystack" />
+              <img src='paystack_logo.png' className="h-5 mx-4" alt="Paystack" />
             </div>
             <div
               onClick={() => setMethod("cod")}
