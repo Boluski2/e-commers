@@ -126,7 +126,7 @@ const ShopContextProvider = (props) => {
 const getProductData = async () => {
     try {
 
-        const response = await axios.get(backendUrl +  "/api/product/list");
+        const response = await axios.get(backendUrl +  '/api/product/list');
         // const data = await response.json();
         if(response.data.success){
             setProducts(response.data.products);
